@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    min-height: 1000px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .left-section {
+    background-color: #ec0d14;
+  }
+  
+  .left-content {
+    padding: 1rem;
+  }
+  
+  .profile-details {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display: block;
+    border: 5px solid white;
+    border-radius: 30%;
+    background-color: #fff;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding: 0.8rem;
+  }
+  
+  .designation {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  
+  .description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .contact-item {
+    text-align: center;
+  }
+  
+  .icon {
+    margin: 0 0.5rem;
+  }
+  
+  .skills {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .skill-name {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 0.5rem;
+  }
+  
+  .progress-bar {
+    border: 1px white solid;
+    height: 15px;
+  }
+  
+  .right-section {
+    background-color: rgb(244, 181, 56);
+  }
+  
+  .right-main-content {
+    padding: 2rem;
+  }
+  
+  .right-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+  }
+  
